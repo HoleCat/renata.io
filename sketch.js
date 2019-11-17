@@ -10,7 +10,7 @@ function setup() {
     createCanvas(400, 400);
     angleMode(DEGREES);
     soundFormats('mp3', 'ogg');
-    song = loadSound("jorge.mp3", loaded);
+    song = loadSound("renata.mp3", loaded);
 
     amp = new p5.Amplitude();
 
