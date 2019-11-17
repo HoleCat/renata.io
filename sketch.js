@@ -51,7 +51,7 @@ function jumpSong() {
 
 function draw() {
 
-    background(song.currentTime()*17, 0, 0);
+    background(song.currentTime()*17, 0, song.currentTime()*17);
 
     var vol = amp.getLevel();
     volumenHistory.push(vol);
